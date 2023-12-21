@@ -1,4 +1,5 @@
-# Building a SOC + Honeynet in Azure (Live Traffic)
+# Honeynet: Attack Observation for Enhanced Architecture Hardening
+
 ![image](https://github.com/jacar0812/Cloud-Honeynet/assets/129025552/34353cc1-dd3d-4725-bb53-45095447dfda)
 
 ## Introduction
@@ -21,15 +22,6 @@ The metrics I will show are:
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
 
-The architecture of the mini honeynet in Azure consists of the following components:
-
-- Virtual Network (VNet)
-- Network Security Group (NSG)
-- Virtual Machines (2 windows, 1 Linux)
-- Log Analytics Workspace
-- Azure Key Vault
-- Azure Storage Account
-- Microsoft Sentinel
 
 For the "BEFORE" metrics, all resources were deployed, and exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources were deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
 
