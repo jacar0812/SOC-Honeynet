@@ -4,9 +4,8 @@
 
 ## Introduction
 
-In this project, I spearheaded the comprehensive monitoring and proactive remediation efforts aimed at addressing the security vulnerabilities and potential threats identified in the prior initiative
-Leveraging Microsoft Sentinel, these logs enable the creation of attack maps, alert triggers, and incident reports.
-I conducted a security metric analysis in an unsecured setting for 24 hours, implemented security measures to strengthen the environment, conducted another 24-hour metric analysis, and presented the resulting improvements below
+In this project, I spearheaded the comprehensive monitoring and proactive remediation efforts aimed at addressing the security vulnerabilities and potential threats identified in the prior project.  
+Leveraging Microsoft Sentinel, these logs enable the creation of attack maps, alert triggers, and incident reports.  I conducted a security metric analysis in an unsecured setting for 24 hours, implemented security measures to strengthen the environment, conducted another 24-hour metric analysis, and presented the resulting improvements below
 
 The metrics I will show are:
 
