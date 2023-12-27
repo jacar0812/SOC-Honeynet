@@ -15,7 +15,8 @@ The metrics I will show are:
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![Architecture Diagram](https://github.com/jacar0812/SOC-Honeynet/assets/129025552/23fb00cd-6da1-4df7-917e-20da771cacf5)
+
 
 ## Architecture After Hardening / Security Controls
 ![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
