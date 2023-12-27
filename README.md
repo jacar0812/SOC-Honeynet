@@ -23,7 +23,7 @@ The metrics I will show are:
 
 For the "BEFORE" metrics, all resources were deployed, and exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources were deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
 
-For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic except for my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
+For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic except for my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoints.
 
 ## Attack Maps Before Hardening / Security Controls
 ![NSG Allowed Inbound Malicious Flows](https://github.com/jacar0812/SOC-Honeynet/assets/129025552/c1168e9d-22f8-4dad-a8f2-ecea686197f6)<br>
