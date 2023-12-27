@@ -15,11 +15,13 @@ The metrics I will show are:
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://github.com/jacar0812/SOC-Honeynet/assets/129025552/23fb00cd-6da1-4df7-917e-20da771cacf5)
+![Architecture Diagram](https://github.com/jacar0812/SOC-Honeynet/assets/129025552/3a355bf4-e911-4074-8459-38704a9331ab)
+
 
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+![Architecture Diagram](https://github.com/jacar0812/SOC-Honeynet/assets/129025552/cd17fb05-65d3-4aa2-9d88-6d0269f722f6)
+
 
 
 For the "BEFORE" metrics, all resources were deployed, and exposed to the internet. The Virtual Machines had both their Network Security Groups and built-in firewalls wide open, and all other resources were deployed with public endpoints visible to the Internet; aka, no use for Private Endpoints.
